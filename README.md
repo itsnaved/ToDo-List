@@ -3,7 +3,7 @@ A simple and intuitive To-Do List application built using HTML, CSS, and JavaScr
 
 🌐 Live Demo
 
-Check out the live version of the app here: https://itsnaved.github.io/ToDo-List/
+Check out the live version of the app here: [To-Do List App - Live](https://itsnaved.github.io/ToDo-List/)
 
 ✨ Features
 
