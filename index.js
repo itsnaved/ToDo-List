@@ -5,6 +5,12 @@ const container = document.querySelector(".container");
 
 const tasks=[];
 
+function removeTasks(){
+    tasks.forEach(()=>{
+    const div= document.querySelector(".task");
+    div.remove();
+    });
+}
 
 function showAllTasks(){
    tasks.forEach((value, index)=>{
@@ -34,6 +40,7 @@ function showAllTasks(){
 
 form.addEventListener("submit" , (e)=>{
     e.preventDefault();
+    removeTasks();
 
     tasks.push({
         title: title.value,
