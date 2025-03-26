@@ -35,6 +35,12 @@ function showAllTasks(){
     div.append(btn);
     container.append(div);
 
+    btn.addEventListener("click",()=>{
+        removeTasks();
+        tasks.splice(index, 1);
+        showAllTasks();
+    })
+
    })
 }
 
